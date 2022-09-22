@@ -11,4 +11,12 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: true,
+    }
 });
+
+setTimeout(() => {
+    const fs = require('fs');
+    fs.writeFile('public/hot', 'http://localhost:5173', () => {});
+}, 5000);
