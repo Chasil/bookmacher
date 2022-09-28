@@ -26,4 +26,5 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<div class="">No account? Register <a href="auth/register.blade.php">Here</a>!</div>
 </html>
